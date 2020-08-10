@@ -2,14 +2,16 @@
 
 clear
 
-echo "\033[1;33m==========================================="
+echo "\033[1;33m"
+echo "==========================================="
 echo "tools termux by Famudz TV"
 echo "==========================================="
-read -p "\033[0;34mNama :" nama
+read -p "Nama :" nama
 echo "selamat datang tuan" $nama
 echo "loading..."
 sleep 5
-echo "\e[1;34m==========================================="
+echo "\e[1;34m"
+echo "==========================================="
 echo "menu :"
 echo ""
 echo "[1]. install python"
@@ -59,7 +61,8 @@ then
 elif [ $pilih = 4 ]
 then
     clear
-    echo "\033[1;32m==========================================="
+    echo "\033[1;32m"
+    echo "==========================================="
     echo "tools termux by Famudz TV, akses ke yt"
     echo "s.id/ch-subs"
     echo "==========================================="
