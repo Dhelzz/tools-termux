@@ -19,7 +19,7 @@ echo "[1]. install python"
 echo "[2]. install git"
 echo "[3]. install php"
 echo "[4]. kuis"
-echo "[5]. keluar aplikasi"
+echo "[5]. 1 jam teks diem"
 echo "[0]. exit"
 echo "==========================================="
 read -p "pilihan :" pilih
@@ -75,49 +75,50 @@ then
     sleep 5
 elif [ $pilih = 5 ]
 then
-    clear
-    echo "\033[1;32mterimakasih telah mengunjungi tools kami"
+    echo "\033[1;31m"
+    echo "==========================================="
+    echo "SUBSCRIBE CHANNEL FAMUDZ TV"
+    echo "==========================================="
+    echo "linknya disingkat biar gampang: www.s.id/subs-ch"
+    echo "keluar dalam 1 jam"
+    echo "new terminal kalo mau masukin script baru"
     echo "\033[1;37m"
-    sleep 3
-    clear 
-    echo "loading"
-    sleep 2
-    clear
-    echo "loading.."
-    sleep 2
-    clear 
-    echo "loading..."
-    sleep 2
-    clear
-    echo "loading"
-    sleep 2
-    clear
-    echo "loading.."
-    sleep 2
-    clear 
-    echo "loading..."
-    sleep 2
-    clear
-    echo "loading"
-    sleep 2
-    clear
-    echo "loading.."
-    sleep 2
-    clear 
-    echo "loading..."
-    sleep 2
-    clear
-    
-    exit
-    
+    sleep 3600
 elif [ $pilih = 0 ]
 then
-    echo "\033[1;32mterimakasih telah mengunjungi tools kami"
-    echo "loading..."
-    sleep 3
     clear
+    echo "\033[1;32mterimakasih telah mengunjungi tools kami"
     echo "\033[1;37m"
     sleep 3
+    clear 
+    echo "loading"
+    sleep 2
+    clear
+    echo "loading.."
+    sleep 2
+    clear 
+    echo "loading..."
+    sleep 2
+    clear
+    echo "loading"
+    sleep 2
+    clear
+    echo "loading.."
+    sleep 2
+    clear 
+    echo "loading..."
+    sleep 2
+    clear
+    echo "loading"
+    sleep 2
+    clear
+    echo "loading.."
+    sleep 2
+    clear 
+    echo "loading..."
+    sleep 2
+    clear
+    sleep 1
 else
     echo "\033[1;31mjawaban tidak tersedia"
     echo "\033[1;37m"
