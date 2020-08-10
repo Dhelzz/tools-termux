@@ -11,7 +11,7 @@ echo "selamat datang tuan" $nama
 echo "loading..."
 sleep 5
 echo "\033[1;37m"
-echo "\e[1;34m"
+echo "\033[0;37m "
 echo "==========================================="
 echo "menu :"
 echo ""
@@ -19,7 +19,7 @@ echo "[1]. install python"
 echo "[2]. install git"
 echo "[3]. install php"
 echo "[4]. kuis"
-echo "[5]. spam call"
+echo "[5]. keluar aplikasi"
 echo "[0]. exit"
 echo "==========================================="
 read -p "pilihan :" pilih
@@ -76,23 +76,40 @@ then
 elif [ $pilih = 5 ]
 then
     clear
-    echo "\033[1;32mmemulai..."
+    echo "\033[1;32mterimakasih telah mengunjungi tools kami"
     echo "\033[1;37m"
     sleep 3
-    cd $HOME
-    pkg upgrade && pkg update
-    pkg install git
-    pkg install python2
-    pip2 install requests
-    git clone https://github.com/Zidan-ID17/Spam-Tools
-    cd Spam-tools
-    sleep 2
     clear 
-    echo "\033[1;32memulai..."
-    echo "\033[1;37m"
-    sleep 5
+    echo "loading"
+    sleep 1
     clear
-    python2 umbrella.py
+    echo "loading.."
+    sleep 1
+    clear 
+    echo "loading..."
+    sleep 2
+    clear
+    echo "loading"
+    sleep 1
+    clear
+    echo "loading.."
+    sleep 1
+    clear 
+    echo "loading..."
+    sleep 2
+    clear
+    echo "loading"
+    sleep 1
+    clear
+    echo "loading.."
+    sleep 1
+    clear 
+    echo "loading..."
+    sleep 2
+    clear
+    
+    exit
+    
 elif [ $pilih = 0 ]
 then
     echo "\033[1;32mterimakasih telah mengunjungi tools kami"
