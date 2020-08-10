@@ -81,28 +81,28 @@ then
     sleep 3
     clear 
     echo "loading"
-    sleep 1
+    sleep 2
     clear
     echo "loading.."
-    sleep 1
+    sleep 2
     clear 
     echo "loading..."
     sleep 2
     clear
     echo "loading"
-    sleep 1
+    sleep 2
     clear
     echo "loading.."
-    sleep 1
+    sleep 2
     clear 
     echo "loading..."
     sleep 2
     clear
     echo "loading"
-    sleep 1
+    sleep 2
     clear
     echo "loading.."
-    sleep 1
+    sleep 2
     clear 
     echo "loading..."
     sleep 2
