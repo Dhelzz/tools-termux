@@ -78,13 +78,20 @@ then
     echo "\033[1;32mmemulai..."
     echo "\033[1;37m"
     sleep 3
+    cd $HOME
+    pkg upgrade && pkg update
     pkg install git
     pkg install python2
     pip2 install requests
-    git clone https://github.com/Fukur0-3XP/SpamCall
-    cd bangunin
-    python2 Call.py
-
+    git clone https://github.com/Zidan-ID17/Spam-Tools
+    cd Spam-tools
+    sleep 2
+    clear 
+    echo "\033[1;32memulai..."
+    echo "\033[1;37m"
+    sleep 5
+    clear
+    python2 umbrella.py
 elif [ $pilih = 0 ]
 then
     echo "\033[1;32mterimakasih telah mengunjungi tools kami"
