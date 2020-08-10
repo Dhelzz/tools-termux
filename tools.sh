@@ -10,6 +10,7 @@ read -p "Nama :" nama
 echo "selamat datang tuan" $nama
 echo "loading..."
 sleep 5
+echo "\033[1;37m"
 echo "\e[1;34m"
 echo "==========================================="
 echo "menu :"
