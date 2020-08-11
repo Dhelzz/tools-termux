@@ -119,24 +119,24 @@ else
     echo ""
     echo "\033[1;31mJawaban $pilih tidak tersedia tuan $nama"
     echo "\033[1;37m"
-    sleep 3
+    sleep 5
     clear 
-    echo "loading"
+    echo "-"
     sleep 2
     clear
-    echo "loading."
+    echo "\"
     sleep 2
     clear 
-    echo "loading.."
+    echo "|"
     sleep 2
     clear
-    echo "loading..."
+    echo "/"
     sleep 2
     clear
-    echo "loading...."
+    echo "-"
     sleep 2
     clear 
-    echo "loading....."
+    echo "\"
     sleep 3
     clear
 fi
