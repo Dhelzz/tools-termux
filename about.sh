@@ -25,6 +25,7 @@ echo "www.s.id/subs-ch"
 sleep 2
 echo "==========================================="
 sleep 4
+echo "33[32;1m"
 clear
 echo "==========================================="
 sleep 1
@@ -40,6 +41,7 @@ echo "==========================================="
 sleep 2
 echo "Keluar Dalam 8 Detik"
 sleep 8
+echo "33[37;1m"
 clear
 
 
