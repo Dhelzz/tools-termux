@@ -121,22 +121,25 @@ else
     echo "\033[1;37m"
     sleep 5
     clear 
-    echo "-"
+    echo "- loading."
     sleep 2
     clear
-    echo "\"
+    echo "\ loading.."
     sleep 2
     clear 
-    echo "|"
+    echo "/ loading..."
     sleep 2
     clear
-    echo "/"
+    echo "- loading."
     sleep 2
     clear
-    echo "-"
+    echo "\ loading.."
     sleep 2
     clear 
-    echo "\"
+    echo "/ loading..."
+    sleep 2
+    clear
+    echo "- loading..."
     sleep 3
     clear
 fi
