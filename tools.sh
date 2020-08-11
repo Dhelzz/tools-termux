@@ -11,7 +11,8 @@ echo "selamat datang tuan" $nama
 echo "loading..."
 sleep 5
 echo "\033[1;37m"
-echo "\033[0;37m "
+echo "\033[1;32m"
+clear
 echo "==========================================="
 echo "menu :"
 echo ""
@@ -40,6 +41,7 @@ then
 elif [ $pilih = 2 ]
 then
     echo "\033[1;37m"
+    clear
     echo "installing git....."
     cd $HOME
     apt update && apt upgrade
@@ -51,6 +53,7 @@ then
 elif [ $pilih = 3 ]
 then
     echo "\033[1;37m"
+    clear
     echo "installing php....."
     cd $HOME
     apt update && apt upgrade
@@ -63,6 +66,7 @@ elif [ $pilih = 4 ]
 then
     clear
     echo "\033[1;32m"
+    clear
     echo "==========================================="
     echo "tools termux by Famudz TV, akses ke yt"
     echo "s.id/ch-subs"
@@ -76,6 +80,7 @@ then
 elif [ $pilih = 5 ]
 then
     echo "\033[1;31m"
+    clear
     echo "==========================================="
     echo "SUBSCRIBE CHANNEL FAMUDZ TV"
     echo "==========================================="
@@ -94,32 +99,42 @@ then
     echo "loading"
     sleep 2
     clear
-    echo "loading.."
+    echo "loading."
     sleep 2
     clear 
+    echo "loading.."
+    sleep 2
+    clear
     echo "loading..."
     sleep 2
     clear
-    echo "loading"
-    sleep 2
-    clear
-    echo "loading.."
+    echo "loading...."
     sleep 2
     clear 
-    echo "loading..."
-    sleep 2
-    clear
-    echo "loading"
-    sleep 2
-    clear
-    echo "loading.."
-    sleep 2
-    clear 
-    echo "loading..."
+    echo "loading....."
     sleep 2
     clear
     sleep 1
 else
     echo "\033[1;31mjawaban tidak tersedia"
     echo "\033[1;37m"
+    clear 
+    echo "loading"
+    sleep 2
+    clear
+    echo "loading."
+    sleep 2
+    clear 
+    echo "loading.."
+    sleep 2
+    clear
+    echo "loading..."
+    sleep 2
+    clear
+    echo "loading...."
+    sleep 2
+    clear 
+    echo "loading....."
+    sleep 3
+    clear
 fi
