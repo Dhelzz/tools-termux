@@ -8,15 +8,18 @@ echo "Dibuat oleh Fa???? Mu??????? Dz????,"
 sleep 2
 echo "Nama Masih Dirahasiakan."
 sleep 2
-echo "SUBSCRIBE sampe 100rb subs kalo mau tau,"
+echo "SUBSCRIBE sampe 100rb subs kalo lu mau tau,"
 sleep 2
 echo "saya siapa."
+echo ""
 sleep 2
 echo "link channel :"
+echo ""
 sleep 2
 echo "www.youtube.com/channel/UCsOXhwrK9iiXbXivPnnWGkg"
 sleep 2
 echo "atau link yang telah di singkat :"
+echo ""
 sleep 2
 echo "www.s.id/subs-ch"
 sleep 2
