@@ -20,13 +20,23 @@ echo "atau link yang telah di singkat :"
 sleep 2
 echo "www.s.id/subs-ch"
 sleep 2
-echo ""
-echo ""
-echo "nama : Fa???? Mu??????? Dz????"
-echo "youtube : Famudz TV"
-echo "Github  : https://github.com/Famudz123"
 echo "==========================================="
-sleep 5
+sleep 4
+clear
+echo "==========================================="
+sleep 1
+echo "keterangan"
+sleep 1
+echo "nama : Fa???? Mu??????? Dz????"
+sleep 1
+echo "youtube : Famudz TV"
+sleep 1
+echo "Github  : https://github.com/Famudz123"
+sleep 1
+echo "==========================================="
+sleep 2
+echo "Keluar Dalam 8 Detik"
+sleep 8
 clear
 
 
