@@ -116,7 +116,7 @@ then
     clear
     sleep 1
 else
-    echo "\033[1;31mjawaban tidak tersedia"
+    echo "\033[1;31mJawaban $pilih tidak tersedia tuan $nama"
     echo "\033[1;37m"
     sleep 3
     clear 
