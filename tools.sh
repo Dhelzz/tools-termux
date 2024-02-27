@@ -72,8 +72,7 @@ then
     echo "s.id/ch-subs"
     echo "==========================================="
     echo "kuis belum tersedia"
-    echo "kuis akan di bikin pada 17 agustus 2020"
-    echo "di github.com/famudz123/lomba"
+    echo "kuis akan di bikin setelah lebaran 2024"
     echo "keluar dalam 5 detik"
     echo "\033[1;37m"
     sleep 5
@@ -82,11 +81,21 @@ then
     echo "\033[1;31m"
     clear
     echo "==========================================="
-    echo "SUBSCRIBE CHANNEL FAMUDZ TV"
+    echo "SUBSCRIBE CHANNEL Dhelzz"
     echo "==========================================="
     echo "linknya disingkat biar gampang: www.s.id/subs-ch"
     echo "keluar dalam 1 jam"
     echo "new terminal kalo mau masukin script baru"
+    echo "loading"
+    sleep 2
+    clear
+    echo "loading."
+    sleep 2
+    clear
+    echo "loading.."
+    sleep 2
+    clear 
+    echo "loading..."
     echo "\033[1;37m"
     sleep 3600
 elif [ $pilih = 0 ]
