@@ -68,7 +68,7 @@ then
     echo "\033[1;32m"
     clear
     echo "==========================================="
-    echo "tools termux by Famudz TV, akses ke yt"
+    echo "tools termux by Dhelzz, akses ke yt"
     echo "s.id/ch-subs"
     echo "==========================================="
     echo "kuis belum tersedia"
